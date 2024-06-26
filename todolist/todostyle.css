@@ -1,0 +1,45 @@
+
+.add-button{
+    padding: 14px 20px;
+    width:100px;
+    margin-bottom:8px;
+    border:none;
+    font-size: 20px;
+    background-color: green;
+    color:white;
+     margin-left:5px;
+     cursor:pointer;
+
+}
+
+.delete-button{
+    padding: 14px 20px;
+    width:100px;
+    font-size: 20px;
+    border:none;
+    background-color: red;
+    color:white;
+    cursor:pointer;
+}
+.todo-text,.due-date{
+    padding: 10px 13px;
+    font-size:20px;
+    cursor:pointer;
+   
+    
+}
+.todo_display { 
+   display:grid;
+   grid-template-columns: 250px 170px 200px;
+   column-gap: 25px;
+   margin-top:5px; 
+   padding-left:5px;
+   align-items: center;
+    row-gap: 20px;
+}
+.todo_display div{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+
+}
